@@ -1,0 +1,37 @@
+# --- Data: the challenge dataset is not redistributed -----------------------
+dataset/
+
+# --- Generated artifacts ----------------------------------------------------
+output/
+experiments/
+cache/
+caches/
+indexes/
+features/
+predictions/
+blocks/
+
+# --- Data and binary artifacts ---------------------------------------------
+*.tsv
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.csr
+*.bin
+*.zip
+*.log
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.pyc
+
+# --- Environments -----------------------------------------------------------
+.venv/
+venv/
+.env
+
+# --- Editors ----------------------------------------------------------------
+.vscode/
+.idea/
